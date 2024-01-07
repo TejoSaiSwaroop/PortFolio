@@ -3,7 +3,7 @@ export const Bio = {
     roles: [
       "Full Stack Developer",
       "Game Developer",
-      "Cloud Computing Enthusiast",
+      "Cloud Enthusiast",
       "Programmer",
     ],
     description:
@@ -13,6 +13,7 @@ export const Bio = {
       "https://drive.google.com/file/d/1-Tq1tsvfn3Q0aFeX97BlxSxswBhiqXdg/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/tejosaiswaroop",
     twitter: "https://twitter.com/tejosaiswaroop",
+    instagram: "https://www.instagram.com/tejosaiswaroop____/",
   };
   
   export const skills = [
@@ -143,7 +144,7 @@ export const Bio = {
         {
           name: "Figma",
           image:
-            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-origi nal.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
         },
       ],
     },
