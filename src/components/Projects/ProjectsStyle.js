@@ -52,8 +52,8 @@ export const Desc = styled.div`
 
 export const ToggleButtonGroup = styled.div`
     display: flex;
-    border: 1.5px solid ${({ theme }) => theme.primary};
-    color: ${({ theme }) => theme.primary};
+    border: white 1px solid;
+    color: white;
     font-size: 16px;
     border-radius: 12px;
     font-weight: 500;
@@ -69,7 +69,7 @@ export const ToggleButton = styled.div`
     cursor: pointer;
     ${({ active, theme }) =>
         active && `
-    background: ${theme.primary + 20};
+    background: {white + 20};
     `
     }
     &:hover {
@@ -82,7 +82,7 @@ export const ToggleButton = styled.div`
 `
 export const Divider = styled.div`
     width: 1.5px;
-    background: ${({ theme }) => theme.primary};
+    background: white;
 `
 
 

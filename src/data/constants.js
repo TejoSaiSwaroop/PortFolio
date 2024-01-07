@@ -251,7 +251,7 @@ export const Bio = {
       image:
         "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
       tags: ["Unity Engine", "C#"],
-      category: "Game Development",
+      category: "game development",
       github: "https://github.com/TejoSaiSwaroop/Game",
       webapp: "https://github.com/TejoSaiSwaroop/Game",
     },
@@ -263,7 +263,7 @@ export const Bio = {
         "A language translator built with google language translator API and also embedded with a login and registration form via HTML, CSS and JavaScript.",
       image:
         "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-      tags: ["Unity Engine", "C#"],
+      tags: ["HTML", "CSS" , "JavaScript" , "Google Language Translator API" , "Netlify"],
       category: "web app",
       github: "https://github.com/TejoSaiSwaroop/DLANGO",
       webapp: "https://singular-figolla-2146c2.netlify.app/",
@@ -277,7 +277,7 @@ export const Bio = {
       image:
         "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
       tags: ["Android Studio", "Java"],
-      category: "App Development",
+      category: "android app",
       github: "https://github.com/TejoSaiSwaroop/Calcijava",
       webapp: "https://github.com/TejoSaiSwaroop/Calcijava",
     },

@@ -1,9 +1,9 @@
 import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
-import _default from '../../themes/default';
+
 
 export const Nav = styled.div`
-    background-color: ${({theme}) => theme.card_light};
+    background-color: #222e38;
     height: 80px;
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@ export const NavLink = styled.a`
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     :hover {
-      color: ${({ theme }) => theme.primary};
+      color: #556b7d;
     }
 
     &.active {
@@ -74,13 +74,13 @@ export const NavLink = styled.a`
 
 
 export const GitHubButton = styled.a`
-  border: 1.8px solid ${({ theme }) => theme.primary};
+  border: 2px solid #244159;
   justify-content: center;
   display: flex;
   align-items: center;
   height: 70%;
   border-radius: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: white;
   cursor: pointer;
   padding: 0 20px;
   font-weight: 500;
@@ -88,7 +88,7 @@ export const GitHubButton = styled.a`
   font-size: 16px;
   transition: all 0.6s ease-in-out;
     :hover {
-      background: ${({ theme }) => theme.primary};
+      background: #364c5e;
       color: ${({ theme }) => theme.white};     
     }
     @media screen and (max-width: 768px) { 

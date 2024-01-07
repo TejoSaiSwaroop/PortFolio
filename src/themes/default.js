@@ -6,7 +6,7 @@ const defaultTheme = {
         },
         // Colors for layout
         colors: {
-            primary1: "#854CE6",
+            primary1: "#3573a6",
             background1: "#222A35",
             button: "#854CE6",
             background2: "#19212C",

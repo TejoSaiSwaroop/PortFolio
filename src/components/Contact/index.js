@@ -60,7 +60,7 @@ const ContactForm = styled.form`
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background-color: ${({ theme }) => theme.card};
+  background-color: #243442;
   padding: 32px;
   border-radius: 16px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
@@ -77,7 +77,7 @@ const ContactTitle = styled.div`
 
 const ContactInput = styled.input`
   flex: 1;
-  background-color: transparent;
+  background-color: #d8dfe6;
   border: 1px solid ${({ theme }) => theme.text_secondary};
   outline: none;
   font-size: 18px;
@@ -91,7 +91,7 @@ const ContactInput = styled.input`
 
 const ContactInputMessage = styled.textarea`
   flex: 1;
-  background-color: transparent;
+  background-color: white;
   border: 1px solid ${({ theme }) => theme.text_secondary};
   outline: none;
   font-size: 18px;
