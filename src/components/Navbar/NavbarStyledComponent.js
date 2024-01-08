@@ -68,7 +68,7 @@ export const NavLink = styled.a`
     }
 
     &.active {
-      border-bottom: 2px solid ${({ theme }) => theme.primary};
+      border-bottom: #556b7d;
     }
 `;
 

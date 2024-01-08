@@ -43,7 +43,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   @media (max-width: 768px) {
       margin-top: 12px;
       font-size: 32px;
@@ -70,6 +70,7 @@ const TimelineSection = styled.div`
     align-items: center;
     justify-content: center;
     gap: 12px;
+    
 `;
 
 
@@ -91,7 +92,7 @@ const index = () => {
                                     {index !== experiences.length - 1 && <TimelineConnector style={{ background: 'black' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }} style={{ color: 'black' }}>
-                                  <ExperienceCard experience={experience} style= {{ color: "#ccd5de"}}/>
+                                  <ExperienceCard experience={experience} style={{ background: "#ccd5de"}}/>
                                 </TimelineContent>
                             </TimelineItem>
                         ))}

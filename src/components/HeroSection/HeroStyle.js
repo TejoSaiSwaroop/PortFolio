@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import _default from "../../themes/default";
+
 
 export const HeroContainer = styled.div`
   background: #3f5970;
