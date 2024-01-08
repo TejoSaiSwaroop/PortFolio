@@ -30,7 +30,7 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: black;
+  color: white;
   @media (max-width: 768px) {
 margin-top: 12px;
       font-size: 32px;
@@ -41,7 +41,7 @@ export const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: #191c1f;
+    color: #ccd5de;
     @media (max-width: 768px) {
         font-size: 16px;
     }
@@ -59,9 +59,9 @@ const SkillsContainer = styled.div`
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
-  background: #243748;
-  border: 0.1px solid #854CE6;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  background: #3f5970;
+  border: 0.1px solid black;
+  box-shadow: black 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
   @media (max-width: 768px) {

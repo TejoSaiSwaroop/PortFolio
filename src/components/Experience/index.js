@@ -54,7 +54,7 @@ const Desc = styled.div`
     font-size: 18px;
     text-align: center;
     max-width: 600px;
-    color: ${({ theme }) => theme.text_secondary};
+    color: #ccd5de;
     @media (max-width: 768px) {
         margin-top: 12px;
         font-size: 16px;
@@ -87,11 +87,11 @@ const index = () => {
                         {experiences.map((experience,index) => (
                             <TimelineItem>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    <TimelineDot variant="default" color="black" />
+                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: 'black' }} />}
                                 </TimelineSeparator>
-                                <TimelineContent sx={{ py: '12px', px: 2 }}>
-                                    <ExperienceCard experience={experience}/>
+                                <TimelineContent sx={{ py: '12px', px: 2 }} style={{ color: 'black' }}>
+                                  <ExperienceCard experience={experience} style= {{ color: "#ccd5de"}}/>
                                 </TimelineContent>
                             </TimelineItem>
                         ))}
