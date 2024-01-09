@@ -1,4 +1,3 @@
-
 import React from 'react'
 import styled from 'styled-components'
 import Timeline from '@mui/lab/Timeline';
@@ -88,10 +87,10 @@ const index = () => {
                         {experiences.map((experience,index) => (
                             <TimelineItem>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="default" color="black" />
-                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: 'black' }} />}
+                                    <TimelineDot variant="default" color="primary" />
+                                    {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#9EA3B0' }} />}
                                 </TimelineSeparator>
-                                <TimelineContent sx={{ py: '12px', px: 2 }} style={{ color: 'black' }}>
+                                <TimelineContent sx={{ py: '12px', px: 2 }} style={{ color: '#9EA3B0' }}>
                                   <ExperienceCard experience={experience} style={{ background: "#ccd5de"}}/>
                                 </TimelineContent>
                             </TimelineItem>

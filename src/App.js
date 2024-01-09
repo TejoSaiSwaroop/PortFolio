@@ -22,7 +22,7 @@ const Body = styled.div`
 `
 
 const Wrapper = styled.div`
-  background: #3f5970;
+  background: #0D1F2D;
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 export const Nav = styled.div`
-    background-color: #222e38;
+    background-color: #546A7B;
     height: 80px;
     display: flex;
     align-items: center;
@@ -64,11 +64,11 @@ export const NavLink = styled.a`
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     :hover {
-      color: #556b7d;
+      color: #9EA3B0;
     }
 
     &.active {
-      border-bottom: #556b7d;
+      border-bottom: #9EA3B0;
     }
 `;
 
@@ -88,8 +88,8 @@ export const GitHubButton = styled.a`
   font-size: 16px;
   transition: all 0.6s ease-in-out;
     :hover {
-      background: #364c5e;
-      color: ${({ theme }) => theme.white};     
+      background: #9EA3B0;
+      color: black;     
     }
     @media screen and (max-width: 768px) { 
     font-size: 14px;

@@ -60,7 +60,7 @@ const ContactForm = styled.form`
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background-color: #314759;
+  background-color: #546A7B;
   padding: 32px;
   border-radius: 16px;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
@@ -81,25 +81,25 @@ const ContactInput = styled.input`
   border: 1px solid ${({ theme }) => theme.text_secondary};
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
+  color: black;
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 1px solid #9EA3B0;
   }
 `
 
 const ContactInputMessage = styled.textarea`
   flex: 1;
-  background-color: white;
+  background-color: #d8dfe6;
   border: 1px solid ${({ theme }) => theme.text_secondary};
   outline: none;
   font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
+  color: black;
   border-radius: 12px;
   padding: 12px 16px;
   &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
+    border: 1px solid #9EA3B0;
   }
 `
 
@@ -107,7 +107,7 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: #6789a8;
+  background: #9EA3B0;
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -127,7 +127,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_iuzc8ek', 'template_ww265nq', form.current, 'e1i6Ugm2fXd1u0rvl')
       .then((result) => {
         setOpen(true);
         form.current.reset();

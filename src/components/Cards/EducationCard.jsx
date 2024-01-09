@@ -43,6 +43,7 @@ const Card = styled.div`
     display: flex;
     flex-direction: column;
     gap: 12px;
+    background: #546A7B;
     transition: all 0.5s ease-in-out;
     &:hover{
         box-shadow: 0px 0px 20px rgba(0,0,0,0.2);

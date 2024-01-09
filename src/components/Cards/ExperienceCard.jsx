@@ -5,7 +5,7 @@ const Document = styled.img`
     display: none;
     height: 70px;
     width: fit-content;
-    background-color: #000;
+    background-color: #546A7B
     border-radius: 10px;
     &:hover{
         cursor: pointer;
@@ -35,6 +35,7 @@ text-overflow: ellipsis;
 
 const Card = styled.div`
     width: 650px;
+    background: #546A7B;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     padding: 12px 16px;
@@ -57,7 +58,7 @@ const Card = styled.div`
 
     &:hover ${Document}{
         display: flex;
-        box-shadow: black 0px 4px 24px;
+        box-shadow: #9EA3B0 0px 4px 24px;
     }
 
     &:hover ${Span}{

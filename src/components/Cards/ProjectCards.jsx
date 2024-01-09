@@ -6,8 +6,8 @@ const Button = styled.button`
     display: none;
     width: 100%;
     padding: 10px;
-    background-color: ${({ theme }) => theme.white};
-    color: ${({ theme }) => theme.text_black};
+    background-color: #546A7B;
+    color: #546A7B;
     font-size: 14px;
     font-weight: 700;
     border: none;
@@ -18,7 +18,7 @@ const Button = styled.button`
 const Card = styled.div`
     width: 330px;
     height: 490px;
-    background-color: ${({ theme }) => theme.card};
+    background-color: #546A7B;
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
@@ -58,8 +58,8 @@ const Tags = styled.div`
 const Tag = styled.span`
     font-size: 12px;
     font-weight: 400;
-    color: ${({ theme }) => theme.primary};
-    background-color: ${({ theme }) => theme.primary + 15};
+    color: white;
+    background-color: #9EA3B0;
     padding: 2px 8px;
     border-radius: 10px;
 `
@@ -74,7 +74,7 @@ const Details = styled.div`
 const Title = styled.div`
     font-size: 20px;
     font-weight: 600;
-    color: ${({ theme }) => theme.text_secondary};
+    color: white;
     overflow: hidden;
     display: -webkit-box;
     max-width: 100%;
@@ -88,7 +88,7 @@ const Date = styled.div`
     font-size: 12px;
     margin-left: 2px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 80};
+    color: #ccd5de;
     @media only screen and (max-width: 768px){
         font-size: 10px;
     }
@@ -97,7 +97,7 @@ const Date = styled.div`
 
 const Description = styled.div`
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 99};
+    color: #ccd5de;
     overflow: hidden;
     margin-top: 8px;
     display: -webkit-box;

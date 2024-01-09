@@ -59,7 +59,7 @@ const SkillsContainer = styled.div`
 const Skill = styled.div`
   width: 100%;
   max-width: 500px;
-  background: #3f5970;
+  background: #546a7b;
   border: 0.1px solid black;
   box-shadow: black 0px 4px 24px;
   border-radius: 16px;

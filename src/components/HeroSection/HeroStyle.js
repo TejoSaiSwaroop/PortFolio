@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const HeroContainer = styled.div`
-  background: #3f5970;
+  background: #0D1F2D;
   display: flex;
   justify-content: center;
   position: relative;
@@ -183,7 +183,7 @@ export const ResumeButton = styled.a`
     transition: all 0.2s ease-in-out !important;
     background: hsla(208, 33%, 21%, 1);
 
-    background: #6789a8;
+    background: #546A7B;
     &:hover {
         transform: scale(1.05);
     transition: all 0.4s ease-in-out;
