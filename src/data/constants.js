@@ -248,7 +248,7 @@ export const Bio = {
       description:
         "Developed a game using Unity Engine and C# where the player has to avoid the obstacles and collect the coins. Implemented the game logic, UI, and animations.",
       image:
-        "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+        "https://drive.google.com/file/d/19yI6VLLhdt_KqgCigHJ4dWwCpZFaI2LH/view?usp=sharing",
       tags: ["Unity Engine", "C#"],
       category: "game development",
       github: "https://github.com/TejoSaiSwaroop/Game",
@@ -274,7 +274,7 @@ export const Bio = {
       description:
         "A simple android app created with Java in Android Studio.",
       image:
-        "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+        "https://ibb.co/k8gM7ny",
       tags: ["Android Studio", "Java"],
       category: "android app",
       github: "https://github.com/TejoSaiSwaroop/Calcijava",

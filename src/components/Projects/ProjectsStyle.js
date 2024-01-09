@@ -56,6 +56,7 @@ export const ToggleButtonGroup = styled.div`
     border-radius: 12px;
     font-weight: 500;
     margin: 22px 0px;
+    background: #546A7B
     @media (max-width: 768px) {
         font-size: 12px;
     }
@@ -71,7 +72,7 @@ export const ToggleButton = styled.div`
     `
     }
     &:hover {
-        background: ${({ theme }) => theme.primary + 8}\;
+        background: #546A7B;
     }
     @media (max-width: 768px) {
         padding: 6px 8px;

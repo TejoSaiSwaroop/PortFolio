@@ -41,7 +41,7 @@ const Card = styled.div`
 const Image = styled.img`
     width: 100%;
     height: 180px;
-    background-color: ${({ theme }) => theme.white};
+    background-color: #546A7B;
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
 `
@@ -117,15 +117,15 @@ const Avatar = styled.img`
     height: 38px;
     border-radius: 50%;
     margin-left: -10px;
-    background-color: ${({ theme }) => theme.white};
+    background-color: #546A7B;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     border: 3px solid ${({ theme }) => theme.card};
 `
 
 const ProjectCards = ({project,setOpenModal}) => {
     return (
-        <Card onClick={() => setOpenModal({state: true, project: project})}>
-            <Image src={project.image}/>
+        <Card onClick={() => setOpenModal({state: true, project: project})} >
+            <Image src={project.image} />
             <Tags>
                 {project.tags?.map((tag, index) => (
                 <Tag>{tag}</Tag>
