@@ -23,7 +23,7 @@ width: 100%;
 border-radius: 16px;
 margin: 50px 12px;
 height: min-content;
-background-color: ${({ theme }) => theme.card};
+background-color: #546A7B;
 color: ${({ theme }) => theme.text_primary};
 padding: 20px;
 display: flex;
@@ -34,7 +34,7 @@ position: relative;
 const Title = styled.div`
   font-size: 28px;
   font-weight: 600;
-  color: ${({ theme }) => theme.text_primary};
+  color: white;
   margin: 8px 6px 0px 6px;
   @media only screen and (max-width: 600px) {
       font-size: 24px;
@@ -46,7 +46,7 @@ const Date = styled.div`
     font-size: 16px;
     margin: 2px 6px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary};
+    color: #ccd5de;
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
@@ -57,7 +57,7 @@ const Date = styled.div`
 const Desc = styled.div`
     font-size: 16px;
     font-weight: 400;
-    color: ${({ theme }) => theme.text_primary};
+    color: #ccd5de;
     margin: 8px 6px;
     @media only screen and (max-width: 600px) {
         font-size: 14px;
@@ -96,11 +96,11 @@ const Tags = styled.div`
 const Tag = styled.div`
     font-size: 14px;
     font-weight: 400;
-    color: ${({ theme }) => theme.primary};
+    color: white;
     margin: 4px;
     padding: 4px 8px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary + 20};
+    background-color: #9EA3B0;
     @media only screen and (max-width: 600px) {
         font-size: 12px;
     }
@@ -162,7 +162,7 @@ const Button = styled.a`
     color: ${({ theme }) => theme.text_primary};
     padding: 12px 16px;
     border-radius: 8px;
-    background-color: ${({ theme }) => theme.primary};
+    background-color: #9EA3B0;
     ${({ dull, theme }) => dull && `
         background-color: ${theme.bgLight};
         color: ${theme.text_secondary};
@@ -174,7 +174,8 @@ const Button = styled.a`
     text-decoration: none;
     transition: all 0.5s ease;
     &:hover {
-        background-color: ${({ theme }) => theme.primary + 99};
+        background-color: #9EA3B0;
+        color:black;
     }
     @media only screen and (max-width: 600px) {
         font-size: 12px;
