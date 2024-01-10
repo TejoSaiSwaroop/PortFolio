@@ -238,8 +238,8 @@ export const Bio = {
         "Firebase",
       ],
       category: "web app",
-      github: "https://github.com/TejoSaiSwaroop/hubomovie-ui/",
-      webapp: "https://github.com/TejoSaiSwaroop/hubomovie-ui/",
+      github: "https://github.com/TejoSaiSwaroop/hubomovie/",
+      webapp: "https://github.com/TejoSaiSwaroop/hubomovie/",
     },
     {
       id: 0,
@@ -303,7 +303,7 @@ export const Bio = {
         "https://drive.google.com/uc?id=1Uohc9lbdkMg2SOBf6wiXcVkuUvpt45fR",
       tags: ["ReactJs", "Visual Studio Code", "Netlify"],
       category: "web app",
-      github: "https://github.com/TejoSaiSwaroop/HuboMovieDEMO",
+      github: "https://github.com/TejoSaiSwaroop/HuboTV",
       webapp: "https://jazzy-pothos-f3b4a2.netlify.app/",
     },
   ];
