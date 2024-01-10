@@ -41,7 +41,6 @@ const Card = styled.div`
 const Image = styled.img`
     width: 100%;
     height: 180px;
-    background-color: #546A7B;
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
 `

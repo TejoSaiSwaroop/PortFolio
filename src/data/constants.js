@@ -228,7 +228,7 @@ export const Bio = {
       description:
         "HubOMovie is an online OTT platform based on the Netflix but with a different interface and features. It is a full-stack web application that allows users to search for, play, and pause their favorite movies on demand and create movies. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
       image:
-        "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        "https://drive.google.com/uc?id=1R50jyytCKWRnTSv7EOMSZjNW8RmhLvCE",
       tags: [
         "React Js",
         "MongoDb",
@@ -248,7 +248,7 @@ export const Bio = {
       description:
         "Developed a game using Unity Engine and C# where the player has to avoid the obstacles and collect the coins. Implemented the game logic, UI, and animations.",
       image:
-        "https://drive.google.com/file/d/19yI6VLLhdt_KqgCigHJ4dWwCpZFaI2LH/view?usp=sharing",
+        "https://drive.google.com/uc?id=19yI6VLLhdt_KqgCigHJ4dWwCpZFaI2LH",
       tags: ["Unity Engine", "C#"],
       category: "game development",
       github: "https://github.com/TejoSaiSwaroop/Game",
@@ -261,7 +261,7 @@ export const Bio = {
       description:
         "A language translator built with google language translator API and also embedded with a login and registration form via HTML, CSS and JavaScript.",
       image:
-        "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+      "https://drive.google.com/uc?id=1G6mGNMxsHDi1FDPjr6jLWTco-Rv6xtwc",
       tags: ["HTML", "CSS" , "JavaScript" , "Google Language Translator API" , "Netlify"],
       category: "web app",
       github: "https://github.com/TejoSaiSwaroop/DLANGO",
@@ -274,7 +274,7 @@ export const Bio = {
       description:
         "A simple android app created with Java in Android Studio.",
       image:
-        "https://ibb.co/k8gM7ny",
+               "https://drive.google.com/uc?id=1QFZR17V0-6VAcua6v_nJZ7mP8h0uPyJc",
       tags: ["Android Studio", "Java"],
       category: "android app",
       github: "https://github.com/TejoSaiSwaroop/Calcijava",
@@ -287,7 +287,7 @@ export const Bio = {
       description:
         "An expense tracker app to store your expenses and the history of it. This was made as an demo project before implementing the node backend and databases into it.",
       image:
-        "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+        "https://drive.google.com/uc?id=1V0PQXnunZt6K2RRUrM2xKAoFpT_crnsf",
       tags: ["ReactJs", "Visual Studio Code", "Netlify"],
       category: "web app",
       github: "https://github.com/TejoSaiSwaroop/Expense-Tracker-React-",
@@ -295,12 +295,12 @@ export const Bio = {
     },
     {
       id: 4,
-      title: "HubOMovieDEMO",
+      title: "HuboTV",
       date: "December 2023 - January 2024",
       description:
         "An platform to search and read ratings for the movies. This was made as an demo project before implementing the react and APIs into the app. This is similar to IMDB but with a different interface and features.",
       image:
-        "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+        "https://drive.google.com/uc?id=1Uohc9lbdkMg2SOBf6wiXcVkuUvpt45fR",
       tags: ["ReactJs", "Visual Studio Code", "Netlify"],
       category: "web app",
       github: "https://github.com/TejoSaiSwaroop/HuboMovieDEMO",
