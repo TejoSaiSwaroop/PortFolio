@@ -10,7 +10,7 @@ export const Bio = {
       "Versatile and innovative, I am a seasoned Full Stack Developer and Game Developer, seamlessly blending expertise in cloud computing. With a passion for programming, I craft immersive digital experiences that transcend traditional boundaries, navigating the intersection of technology and creativity..",
     github: "https://github.com/tejosaiswaroop",
     resume:
-      "https://drive.google.com/file/d/107US6RxRjsuhzmtfmAbJtokLIBe8CG6S/view?usp=sharing",
+      "https://drive.google.com/file/d/10D8DH1S7q1hG8VPPD07I3bfWXos_FZxF/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/tejosaiswaroop",
     twitter: "https://twitter.com/tejosaiswaroop",
     instagram: "https://www.instagram.com/tejosaiswaroop____/",
