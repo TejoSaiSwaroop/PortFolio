@@ -295,16 +295,16 @@ export const Bio = {
     },
     {
       id: 4,
-      title: "HuboTV",
-      date: "December 2023 - January 2024",
+      title: "Mental Health Chatbot",
+      date: "February 2024 - March 2024",
       description:
-        "An platform to search and read ratings for the movies. This was made as an demo project before implementing the react and APIs into the app. This is similar to IMDB but with a different interface and features.",
+        "A chatbot to spread mental health awareness and answer one's queries and questions regarding their health.",
       image:
-        "https://storage.googleapis.com/portfolio_pics/HuboTV.png",
-      tags: ["ReactJs", "Visual Studio Code", "Netlify"],
+        "https://storage.googleapis.com/portfolio_pics/MentalHealthChatbot",
+      tags: ["DialogFlow", "Visual Studio Code", "Telegram"],
       category: "web app",
-      github: "https://github.com/TejoSaiSwaroop/HuboTV",
-      webapp: "https://jazzy-pothos-f3b4a2.netlify.app/",
+      github: "https://github.com/TejoSaiSwaroop/GSC-2024",
+      webapp: "https://t.me/mentalhealth_buddy_bot",
     },
   ];
   
