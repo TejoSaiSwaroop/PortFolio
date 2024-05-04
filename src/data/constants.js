@@ -265,7 +265,7 @@ export const Bio = {
       tags: ["HTML", "CSS" , "JavaScript" , "Google Language Translator API" , "Netlify"],
       category: "web app",
       github: "https://github.com/TejoSaiSwaroop/DLANGO",
-      webapp: "https://singular-figolla-2146c2.netlify.app/",
+      webapp: "https://dlango.vercel.app/",
     },
     {
       id: 2,
