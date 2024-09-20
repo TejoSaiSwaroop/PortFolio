@@ -152,7 +152,32 @@ export const Bio = {
   
   export const experiences = [
     {
-        id: 0,
+      id: 1,
+      img: "data:image/png;base64,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",
+      role: "Beta Tester",
+      company: "Udacity",
+      date: "February 2024 - March 2024",
+      desc: "Provided feedback as a beta tester for Udacity courses, influencing content, functionality, and pricing. Demonstrated practical knowledge through real-world projects in Udacity's Nanodegree programs, contributing to educational materials.",
+      skills: [
+        "Generative AI", "AWS", "Azure API","Azure Cloud Computing"
+      ],
+    },
+    {
+      id: 2,
+      img: "https://imgs.search.brave.com/nGHFdL7AqVMWRsqlQuxANFJPNeTx0cwk8Vj5aSmoZoA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3VjY2Vzc3N0/b3J5LmNvbS9pbWdf/Y29tcGFueS9IY2xf/MTQ1ODUzNTkzMy5q/cGc",
+      role: "Project Intern",
+      company: "HCL Enterprises Pvt. Ltd.",
+      date: "July 2023 - November 2023",
+      desc: "Addressed the lack of Indian languages in regular translators by adding support for 73 languages.\n Developed a continuously running website using HTML, CSS, and JavaScript, integrating Google's Language Translator API for real-time translations.",
+      skills: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Google Language Translator API",
+      ],
+    },
+    {
+        id: 3,
         img: "https://imgs.search.brave.com/Jzia0JPwVQ-VT3qYZY5E1Zp109Ve-u4NDtIAh6ihUR8/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vdGh1bWIv/ZS9lYi9BbGxfSW5k/aWFfQ291bmNpbF9m/b3JfVGVjaG5pY2Fs/X0VkdWNhdGlvbl9s/b2dvLnBuZy81MTJw/eC1BbGxfSW5kaWFf/Q291bmNpbF9mb3Jf/VGVjaG5pY2FsX0Vk/dWNhdGlvbl9sb2dv/LnBuZw",
         role: "Cloud Computing Intern",
         company: "AICTE",
@@ -164,50 +189,8 @@ export const Bio = {
           "Google Cloud Platform",
         ],
       },
-    {
-      id: 1,
-      img: "https://imgs.search.brave.com/nGHFdL7AqVMWRsqlQuxANFJPNeTx0cwk8Vj5aSmoZoA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc3VjY2Vzc3N0/b3J5LmNvbS9pbWdf/Y29tcGFueS9IY2xf/MTQ1ODUzNTkzMy5q/cGc",
-      role: "Project Intern",
-      company: "HCL Enterprises Pvt. Ltd.",
-      date: "July 2023 - November 2023",
-      desc: "Working on Flipr Platforms, designing and developing a language translator with Web Development and APIs",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Google Language Translator API",
-      ],
-    },
-
-    {
-      id: 2,
-      img: "https://media.licdn.com/dms/image/D4D0BAQG_mbDpXHuSiA/company-logo_200_200/0/1715416085778/bharat_intern_logo?e=1724284800&v=beta&t=vJWjxOi19Pg75QYTjskIuFxd5SnzPm_npTVe0Z2YVkE",
-      role: "Fullstack Developer Intern",
-      company: "Bharat Intern",
-      date: "November 2023 - December 2023",
-      desc: "Designed and developed an Expense-Tracker with MERN Stack and deployed",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "NodeJs",
-        "ExpressJs",
-        "MongoDB",
-        "CSS",
-        "JavaScript",
-        "Netlify",
-      ],
-    },
-    {
-      id: 3,
-      img: "data:image/png;base64,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",
-      role: "Beta Tester",
-      company: "Udacity",
-      date: "February 2024 - March 2024",
-      desc: "Beta Testing the new features of Udacity's upcoming course and providing feedback.",
-      skills: [
-        "Azure API","Azure Cloud Computing"
-      ],
-    },
+  
+    
   ];
   
   export const education = [
@@ -217,7 +200,7 @@ export const Bio = {
       school: "Sathyabama Institute of Science and Technology, Chennai",
       date: "Sep 2021 - May 2025",
       grade: "8.71 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Sathyabama Institute of Science and Technology, Chennai. I have completed 4 semesters and have a CGPA of 9.0. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at SIST, where I am learning and working on exciting projects with a team of talented developers.",
+      desc: "Currently pursuing a Bachelor's degree in Computer Science and Engineering at Sathyabama Institute of Science and Technology, Chennai. Successfully completed 6 semesters and have a CGPA of 8.85.Gained knowledge about various courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, and many others. Currently the President of the Google Developers Student Club (SDC) at SIST, where I am learning and working on exciting projects with a team of talented developers.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
@@ -226,7 +209,7 @@ export const Bio = {
       school: "Narayana Group of Institutions, Hyderabad",
       date: "Apr 2019 - June 2021",
       grade: "89.8%",
-      desc: "I completed my class 12 high school education at Narayana Group of Institutions, Hyderabad, where the focus was on Mathematics, Physics and Chemistry.",
+      desc: "Telangana State Board of Intermediate Education.",
       degree: "SSC(XII), Maths,Physics,Chemistry",
     },
   ];
